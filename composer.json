@@ -1,15 +1,15 @@
 {
-    "name": "laravel/model-datatable",
-    "description": "A Laravel package for generating dynamic data tables using Blade components. Supports Bootstrap, Tailwind, and custom views.",
+    "name": "jame/laravel-model-datatable",
+    "description": "A Laravel package for generating dynamic data tables using Blade components.",
     "version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "Laravel\\ModelDatatable\\": "src/"
+            "Jame\\ModelDatatable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laravel\\ModelDatatable\\Tests\\": "tests/"
+            "Jame\\ModelDatatable\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Laravel\\ModelDatatable\\Providers\\ModelDataTableServiceProvider"
+                "Jame\\ModelDataTable\\Providers\\ModelDataTableServiceProvider"
             ]
         }
     },

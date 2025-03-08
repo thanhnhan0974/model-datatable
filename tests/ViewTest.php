@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\ModelDatatable\Tests;
+namespace Jame\ModelDatatable\Tests;
 
 use Illuminate\Support\Facades\View;
 

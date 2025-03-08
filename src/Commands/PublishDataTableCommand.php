@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\ModelDataTable\Commands;
+namespace Jame\ModelDataTable\Commands;
 
 use Illuminate\Console\Command;
 

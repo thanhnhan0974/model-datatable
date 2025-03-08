@@ -1,6 +1,8 @@
 <?php
 
-use Laravel\ModelDatatable\Traits\HasDataTable;
+namespace Jame\ModelDatatable\Tests;
+
+use Jame\ModelDatatable\Traits\HasDataTable;
 use PHPUnit\Framework\TestCase;
 
 class ModelDataTableTest extends TestCase

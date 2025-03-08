@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\ModelDatatable\Providers;
+namespace Jame\ModelDatatable\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,7 +23,7 @@ class ModelDataTableServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../../resources/views', 'model-datatable');
 
         $this->commands([
-            \Laravel\ModelDataTable\Commands\PublishDataTableCommand::class,
+            \Jame\ModelDataTable\Commands\PublishDataTableCommand::class,
         ]);
     }
 }

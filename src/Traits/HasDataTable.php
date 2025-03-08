@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\ModelDatatable\Traits;
+namespace Jame\ModelDatatable\Traits;
 
 trait HasDataTable
 {
