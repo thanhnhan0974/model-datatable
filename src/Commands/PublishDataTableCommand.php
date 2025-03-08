@@ -1,6 +1,6 @@
 <?php
 
-namespace Jame\ModelDataTable\Commands;
+namespace Nion\ModelDataTable\Commands;
 
 use Illuminate\Console\Command;
 

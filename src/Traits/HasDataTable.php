@@ -1,6 +1,6 @@
 <?php
 
-namespace Jame\ModelDatatable\Traits;
+namespace Nion\ModelDatatable\Traits;
 
 trait HasDataTable
 {

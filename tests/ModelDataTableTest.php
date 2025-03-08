@@ -1,8 +1,8 @@
 <?php
 
-namespace Jame\ModelDatatable\Tests;
+namespace Nion\ModelDatatable\Tests;
 
-use Jame\ModelDatatable\Traits\HasDataTable;
+use Nion\ModelDatatable\Traits\HasDataTable;
 use PHPUnit\Framework\TestCase;
 
 class ModelDataTableTest extends TestCase

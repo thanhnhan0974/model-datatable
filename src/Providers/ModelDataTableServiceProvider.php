@@ -1,6 +1,6 @@
 <?php
 
-namespace Jame\ModelDatatable\Providers;
+namespace Nion\ModelDatatable\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -23,7 +23,7 @@ class ModelDataTableServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'/../../resources/views', 'model-datatable');
 
         $this->commands([
-            \Jame\ModelDataTable\Commands\PublishDataTableCommand::class,
+            \Nion\ModelDataTable\Commands\PublishDataTableCommand::class,
         ]);
     }
 }

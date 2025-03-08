@@ -1,8 +1,8 @@
 <?php
 
-namespace Jame\ModelDatatable\Tests;
+namespace Nion\ModelDatatable\Tests;
 
-use Jame\ModelDatatable\Providers\ModelDataTableServiceProvider;
+use Nion\ModelDatatable\Providers\ModelDataTableServiceProvider;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace Jame\ModelDatatable\Tests;
+namespace Nion\ModelDatatable\Tests;
 
 use Illuminate\Support\Facades\View;
 

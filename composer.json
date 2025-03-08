@@ -4,12 +4,12 @@
     "version": "1.0.0",
     "autoload": {
         "psr-4": {
-            "Jame\\ModelDatatable\\": "src/"
+            "Nion\\ModelDatatable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jame\\ModelDatatable\\Tests\\": "tests/"
+            "Nion\\ModelDatatable\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jame\\ModelDataTable\\Providers\\ModelDataTableServiceProvider"
+                "Nion\\ModelDataTable\\Providers\\ModelDataTableServiceProvider"
             ]
         }
     },
