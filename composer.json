@@ -1,5 +1,5 @@
 {
-    "name": "jame/laravel-model-datatable",
+    "name": "nion/laravel-model-datatable",
     "description": "A Laravel package for generating dynamic data tables using Blade components.",
     "version": "1.0.0",
     "autoload": {
