@@ -2,10 +2,12 @@
 
 namespace Nion\ModelDatatable\Traits;
 
-trait HasDataTable
+use Nion\ModelDatatable\Collections\ModelDatatableCollection;
+
+trait HasDatatable
 {
-    public function tables()
+    public function newCollection(array $models = [])
     {
-        return view('model-datatable::table', ['data' => $this]);
+        return new ModelDatatableCollection($models);
     }
 }
