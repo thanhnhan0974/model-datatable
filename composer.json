@@ -1,7 +1,7 @@
 {
     "name": "nion/laravel-model-datatable",
     "description": "A Laravel package for generating dynamic data tables using Blade components.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "autoload": {
         "psr-4": {
