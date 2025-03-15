@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Nion\\ModelDataTable\\Providers\\ModelDataTableServiceProvider"
+                "Nion\\ModelDatatable\\Providers\\ModelDataTableServiceProvider"
             ]
         }
     },
