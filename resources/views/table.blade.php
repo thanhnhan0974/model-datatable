@@ -8,15 +8,15 @@
 @if (!empty($data))
     <thead>
         <tr>
-            @foreach ($data?->first()?->getAttributes() as $key => $value)
-                <th>{{ $key }}</th>
+            @foreach ($headers as $header)
+                <th>{{ $header }}</th>
             @endforeach
         </tr>
     </thead>
     <tbody>
-        @foreach ($data as $row)
+        @foreach ($data->items() as $row)
             <tr>
-                @foreach ($row->getAttributes() as $value)
+                @foreach ($row as $value)
                     <td>{{ $value }}</td>
                 @endforeach
             </tr>

@@ -9,17 +9,11 @@ class ModelDataTableServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        // Load config
         $this->mergeConfigFrom(__DIR__ . '/../../config/model-datatable.php', 'model-datatable');
     }
 
     public function boot()
     {
-        Collection::macro(
-            'tables',
-            fn() => collect($this)->map(fn($item) => $item->tables())
-        );
-
         // Publish config
         $this->publishes([
             __DIR__ . '/../../config/model-datatable.php' => config_path('model-datatable.php'),
