@@ -21,7 +21,7 @@ class DatatableResult
 
     private function setHeaders(): static
     {
-        $headers = $this->model->headers ?? $this->model->getFillable();
+        $headers = $this->model->datatableColumns ?? $this->model->getFillable();
 
         foreach ($headers as $key => $header) {
             $this->headers[$key] = $header;
